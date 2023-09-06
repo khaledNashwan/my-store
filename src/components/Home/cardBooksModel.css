@@ -1,0 +1,21 @@
+.CardBooksModel{
+    width: 380px;
+    border: 1px solid black;
+}
+.CardBooksModel img{
+     width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.CardBooksModel>p:first-child {
+    height: 60px;
+}
+
+@media screen and (max-width: 992px) {
+    .CardBooksModel{
+        width: 300px;
+        border: 1px solid black;
+    }
+  
+}

@@ -1,0 +1,24 @@
+
+.slide{
+    height: calc(100vh - 74px);
+  }
+  
+  .card{
+    height: calc(15rem - 90px);
+    border-color: #4abc96 !important;
+    margin-bottom: 1rem;
+
+  }
+  .icon__title{
+    color: var(--main-color);
+  }
+
+.icon__card svg{
+  color: #4abc96;
+}
+
+.CardBooks{
+  height: 90vh;
+  margin-bottom: 1rem;
+}
+

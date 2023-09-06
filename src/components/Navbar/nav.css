@@ -1,0 +1,41 @@
+.navbar{
+    background-color: var(--main-color);
+    height: 74px;
+}
+
+.menu__link{
+    font-size: 20px;
+    padding: .3rem 1rem;
+}
+
+    .active{
+        background-color: #4abc96;
+        color: black !important;
+        text-decoration: none;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+}
+
+    .navbar-toggler:focus{
+        outline: none;
+    }
+
+    .navbar-toggler-icon{
+        color: white;
+    }
+
+   
+@media screen and (max-width: 992px) {
+    .navbar{
+        height: auto;
+        padding-bottom: 1rem;
+    }
+    .menu__link{
+        border-bottom: 3px solid white;
+        padding-bottom: 1rem;
+    }
+}
+
